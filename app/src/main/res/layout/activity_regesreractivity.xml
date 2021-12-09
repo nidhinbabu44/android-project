@@ -1,0 +1,82 @@
+<LinearLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:background="@drawable/regbg"
+    android:orientation="vertical"
+    android:padding="10dp"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+        <EditText
+            android:drawableLeft="@drawable/name"
+            android:layout_margin="5dp"
+            android:hint="Enter your name"
+            android:id="@+id/Name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+    <EditText
+        android:drawableLeft="@drawable/add"
+        android:layout_margin="5dp"
+        android:hint="Enter your Address"
+        android:id="@+id/address"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:hint="Enter your PH NO"
+        android:drawableLeft="@drawable/phno"
+        android:layout_margin="5dp"
+        android:id="@+id/Phoneno"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:hint="Enter your emailID"
+        android:drawableLeft="@drawable/email"
+        android:layout_margin="5dp"
+        android:id="@+id/Emailid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+
+    <EditText
+        android:hint="Enter your UserName"
+        android:drawableLeft="@drawable/username"
+        android:layout_margin="5dp"
+        android:id="@+id/username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+
+    <EditText
+        android:hint="Enter your Password"
+        android:inputType="textPassword"
+        android:drawableLeft="@drawable/pass"
+        android:layout_margin="5dp"
+        android:id="@+id/password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:hint="Enter your Confirm password"
+        android:inputType="textPassword"
+        android:drawableLeft="@drawable/pass"
+        android:layout_margin="5dp"
+        android:id="@+id/confirmpassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <androidx.appcompat.widget.AppCompatButton
+        android:text="register"
+        android:background="@drawable/butreg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/back"
+        android:layout_margin="5dp"
+        android:text="Back To Login"
+        android:background="@drawable/butreg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+
+</LinearLayout>
